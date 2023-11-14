@@ -23,7 +23,7 @@ const Contact = () => {
 
     try {
       //"http://localhost:5000/api/submit"
-      const response = await fetch("https://iheb_bs.onrender.com", {
+      const response = await fetch("https://IHEB-BEN-SOLTANE.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
